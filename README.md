@@ -1,55 +1,43 @@
-# React + TypeScript + Vite
+# React Todo List
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+React todo list for interview testing
 
-Currently, two official plugins are available:
+# Features
+- Add task
+- Edit task
+- Delete task
+- Save task on localStorage
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+# Installation
+1. Using npm to install package
+```bash
+npm install
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
+# How to run
+In root of project run this in terminal for testing in dev mode
+```bash
+npm run dev
 ```
-# react_todolist
+
+# Example UI
+    
+![No_data](https://github.com/MeRrai333/react_todolist/blob/main/ui/no_data.png?raw=true)
+    
+![add_1](https://github.com/MeRrai333/react_todolist/blob/main/ui/add_1.png?raw=true)
+    
+![add_2](https://github.com/MeRrai333/react_todolist/blob/main/ui/add_2.png?raw=true)
+    
+![add_3](https://github.com/MeRrai333/react_todolist/blob/main/ui/add_3.png?raw=true)
+    
+![add_4](https://github.com/MeRrai333/react_todolist/blob/main/ui/add_4.png?raw=true)
+    
+![add_5](https://github.com/MeRrai333/react_todolist/blob/main/ui/add_5.png?raw=true)
+    
+![edit_1](https://github.com/MeRrai333/react_todolist/blob/main/ui/edit_1.png?raw=true)
+    
+![delete_1](https://github.com/MeRrai333/react_todolist/blob/main/ui/delete_1.png?raw=true)
+    
+![check_1](https://github.com/MeRrai333/react_todolist/blob/main/ui/check_1.png?raw=true)
+    
+![check_2](https://github.com/MeRrai333/react_todolist/blob/main/ui/check_2.png?raw=true)
